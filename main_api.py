@@ -4,6 +4,9 @@ from fastapi.middleware.cors import CORSMiddleware
 from datetime import date
 import mysql.connector
 
+
+
+
 app = FastAPI()
 
 app.add_middleware(
